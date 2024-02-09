@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>My Website</title>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">My Website</div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <!-- Add more menu items as needed -->
+  </ul>
+</nav>
+
+<div class="container">
+  <div class="login-form">
+    <h2>Login Form</h2>
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="button" onclick="login()">Login</button>
+    </form>
+  </div>
+
+  <div class="card">
+    <h3>Welcome to My Website</h3>
+    <p>This is a simple website with a login form and a text card.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
